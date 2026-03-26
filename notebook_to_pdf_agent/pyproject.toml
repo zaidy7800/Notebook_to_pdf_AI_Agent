@@ -1,17 +1,17 @@
 [project]
 name = "notebook-to-pdf-agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "Jupyter Notebook to PDF AI Agent"
 readme = "README.md"
-requires-python = ">=3.11.14"
+requires-python = ">=3.11"
+
 dependencies = [
-    "langchain>=1.2.12",
+    "langchain>=1.2.13",
     "langchain-community>=0.4.1",
     "langchain-core>=1.2.19",
     "langchain-ollama>=1.0.1",
-    "langgraph>=1.1.2",
+    "langchainhub>=0.1.20",
     "nbconvert[webpdf]>=7.17.0",
     "ollama>=0.6.1",
     "playwright>=1.58.0",
-    "python-dotenv>=1.2.2",
 ]
